@@ -6,6 +6,16 @@ This is the project built using Python and its libraries
 	git clone https://github.com/SDE-Arun/Face_Recognition_Attendance_System.git
 
 
+### Things to do before running the project
+
+** make sure you have python installed in your system and also install mysql in your system and make the table and databse as mentioned below
+
+** Also make sure that you have installed all the dependencies/libraries in your system using pip install command
+
+** Delete all the content of the classifier.xml file, because it contain the data of my face, so you need to train your own face and then it will save automatically in the classifier.xml file
+
+** Create a folder name "Data_Images" in your root folder, this folder contain the images of the students. It will save all the images of the students in this folder.
+
 	Then project will be in your system then run the main.py
 	If it run successfully then good, other install all the dependencies/libraries in your system using pip and search for the command from google 
 
@@ -31,3 +41,5 @@ Table structure for the adding students and its column datatypes
 ![image](https://github.com/SDE-Arun/Face_Recognition_Attendance_System/assets/122452288/79c7900d-a2f1-44a0-a59f-47c19b940d2c)
 
  
+!@#$%^&*()_+{}|:"<>?~`-=[]\;',./
+If you face any problem, feel free to contact me on my email id:arunjazzy2511@gmail.com
