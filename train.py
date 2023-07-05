@@ -63,7 +63,7 @@ class Train:
         ids = np.array(ids)
 
         # ========================== Train the classifier and saving the data ========================
-        clf = cv2.face.LBPHFaceRecognizer_create() 
+        clf = cv2.face.LBPHFaceRecognizer.create() 
         clf.train(faces, ids)
         clf.write("classifier.xml")
         cv2.destroyAllWindows()

@@ -1,2 +1,5 @@
-import mysql.connector
-print(mysql.connector.__version__)
+import cv2
+
+clf = cv2.face.LBPHFaceRecognizer.create() 
+
+print(cv2.__version__)
