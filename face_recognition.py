@@ -145,7 +145,7 @@ class Face_Recognition:
             img = recognize(img, clf, faceCascade)
             cv2.imshow("Welcome to Face Recognition Phase", img)
 
-            if cv2.waitKeyEx(1) == 13:
+            if cv2.waitKey(0)==13:
                 break
         #  ________________________________Writing Duplicate Values issue resolves here ________________________________
         video_cap.release()
